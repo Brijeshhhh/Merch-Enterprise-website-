@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="akatsuki.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="div class=p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5" style="background-color: rgb(134, 209, 255)">
+            <center>
+                <nav id="nav" >
+                    <a class="m-lg-5" href="#" >Custom</a>
+                    <a class="m-lg-5" href="showrooms.html">Showrooms</a>
+                    <a class="m-lg-5" href="#" ><img src="img/Akatsuki.png" height="100"></a>
+                    <a class="m-lg-5" href="index.html">Home</a>
+                    <a class="m-lg-5" href="pricing.html">Pricing </a>
+                    <a class="m-lg-5" href="contact.html">Contact us</a>
+                 </nav>
+            </center> 
+        </div>
+    </div>
+  
+  <center>
+    <form action="action.html" method="post" class="form">
+      <h1>Contact Us</h1>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="review">Review:</label>
+      <textarea id="review" name="review" rows="2" required></textarea>
+      <input class="button" type="submit" value="Submit" onclick="" >
+      <br>
+      <div>
+        <Center>
+          <span class="fa fa-envelope-o"></span> contact@theAkatsuki.com
+        </Center> 
+      </div>
+    </form>
+  </center>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
